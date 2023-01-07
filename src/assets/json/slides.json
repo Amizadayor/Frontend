@@ -1,0 +1,18 @@
+[
+    {
+        "imagen": "/assets/img/slide-01.jpg",
+        "titulo": "Bienvenido a",
+        "bold": "Thirteen Lines, ",
+        "texto": "somos la mejor cafeteria que hay en el mercado, gracias a tu preferencia!!",
+        "boton": "Omitir",
+        "path": "/"
+    },
+    {
+        "imagen": "/assets/img/slide-02.jpg",
+        "titulo": "Todo al alcance de un click",
+        "bold": "Los mejores cafés",
+        "texto": "de toda la región",
+        "boton": "Continuar",
+        "path": "/home"
+    }
+]

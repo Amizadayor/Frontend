@@ -1,0 +1,132 @@
+<ion-content fullscreen={true} mode="ios" class="ion-no-border">
+  <ion-app>
+    <ion-menu contentId="main-content">
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>Thirteen Lines</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-item href="" target="_blank">
+            <ion-icon name="home-outline" slot="start"></ion-icon>
+            <ion-label>
+              Tienda
+            </ion-label>
+          </ion-item>
+
+          <ion-item href="" target="_blank">
+            <ion-icon name="cafe-outline" slot="start"></ion-icon>
+            <ion-label>Productos</ion-label>
+          </ion-item>
+
+          <ion-item href="" target="_blank">
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <ion-label>Perfil</ion-label>
+          </ion-item>
+
+          <ion-item href="" target="_blank">
+            <ion-icon name="settings-outline" slot="start"></ion-icon>
+            <ion-label>Configuración</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+      <ion-footer>
+        <ion-toolbar color="primary">
+          <ion-title>Amizaday OR</ion-title>
+        </ion-toolbar>
+      </ion-footer>
+    </ion-menu>
+  
+    <div class="ion-page" id="main-content">
+      <ion-header class="ion-no-border" mode="ios">
+        <ion-toolbar>
+          <ion-buttons slot="start">
+            <ion-menu-button class="btn-menu"></ion-menu-button>
+          </ion-buttons>
+          <ion-searchbar class="ion-buscador" animated="true" placeholder="Buscar">
+          </ion-searchbar>
+          <ion-buttons slot="end">
+            <ion-button class="icon-header">
+              <ion-icon name="bag-handle-outline" size="large"></ion-icon>
+              <ion-badge color="danger">+9</ion-badge>
+            </ion-button>
+            <!-- <ion-button expand="block" onClick={this.openCardModal}>Open Card Modal</ion-button> -->
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+
+      <ion-content class="ion-padding">
+        <ion-card>
+          <br>
+          <img class="americano" align="center" alt="assets/img/img-01.png" src="assets/img/img-01.png" />
+          <ion-card-header>
+            <ion-card-title color="primary">Latte Macchiato</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>$ 5.00</p>
+          </ion-card-content>
+            <ion-button class="btn-ver-mas" color="primary" size="large" expand="block" onClick={this.openCardModal}>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </ion-button>
+        </ion-card>
+
+        <ion-card>
+          <br />
+          <img class="americano" align="center" alt="assets/img/img-02.png" src="assets/img/img-02.png" />
+          <ion-card-header>
+            <ion-card-title color="primary">Cappuccino</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>$ 5.00</p>
+          </ion-card-content>
+          <ion-button class="btn-ver-mas" color="primary" size="large">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </ion-button>
+        </ion-card>
+
+        <ion-card>
+          <br />
+          <img class="americano" align="center" alt="assets/img/img-03.jpg" src="assets/img/img-03.jpg" />
+          <ion-card-header>
+            <ion-card-title color="primary">Late Toffee Nut</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>$ 5.00</p>
+          </ion-card-content>
+          <ion-button class="btn-ver-mas" color="primary" size="large">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </ion-button>
+        </ion-card>
+
+        <ion-card>
+          <br />
+          <img class="americano" align="center" alt="assets/img/img-04.png" src="assets/img/img-04.png" />
+          <ion-card-header>
+            <ion-card-title color="primary">Macchiato Caramelo</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>$ 5.00</p>
+          </ion-card-content>
+          <ion-button class="btn-ver-mas" color="primary" size="large">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </ion-button>
+        </ion-card>
+
+        <ion-card>
+          <br />
+          <img class="mvainilla" align="center" alt="assets/img/img-05.png" src="assets/img/img-05.png" />
+          <ion-card-header>
+            <ion-card-title color="primary">Macchiato Vainilla</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <p>$ 5.00</p>
+          </ion-card-content>
+          <ion-button class="btn-ver-mas" color="primary" size="large">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </ion-button>
+        </ion-card>
+      </ion-content>
+    </div>
+  </ion-app>
+</ion-content>

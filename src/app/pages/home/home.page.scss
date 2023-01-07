@@ -1,0 +1,75 @@
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+ion-card {
+    border-radius: 20px 80px 14px 14px;
+    box-shadow:  0px 10px 20px #59454558
+
+}
+
+.btn-ver-mas{
+    width: 30;
+    display: block;
+}
+
+.btn-menu {
+    margin-top: 12px;
+}
+
+ion-card-title{
+    text-align: center;
+}
+
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+ion-toolbar {
+    --opacity: 1;
+}
+
+img.americano{
+    display:block;
+    margin:auto;
+    width: 248px;
+    height: 248px;
+    margin-top: 10px;
+}
+img.mvainilla{
+    width: 300px;
+    height: 300px;
+    display:block;
+    margin:auto;
+}
+
+.ion-buscador {
+    margin-top: 8px;
+}
+
+.icon-header {
+    margin-top: 8px;
+}
+
+ion-menu::part(backdrop) {
+    background-color: #000000;
+}
+
+ion-menu::part(container) {
+    border-radius: 0 20px 20px 0;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 4px 0px 16px #494949;
+}
+
+ion-list{
+    margin-top: 10px;
+}
+
+ion-item{
+    margin: 10px 0;
+}
